@@ -1,6 +1,6 @@
 include (FindPkgConfig)
 include (GNUInstallDirs)
-include (${CMAKE_CURRENT_BINARY_DIR}/cmake/systemdservice.cmake)
+include (${PROJECT_SOURCE_DIR}/cmake/systemdservice.cmake)
 
 message ( STATUS "Installing services" )
 if ( SYSTEMD_FOUND )
