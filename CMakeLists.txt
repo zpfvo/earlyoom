@@ -14,8 +14,3 @@ if(CMAKE_CXX_COMPILER_ID MATCHES GNU)
 endif()
 
 install ( TARGETS earlyoom DESTINATION bin )
-install ( SCRIPT ${CMAKE_SOURCE_DIR}/cmake/installservices.cmake )
-
-add_custom_target(uninstall
-    "${CMAKE_COMMAND}" -P "${CMAKE_MODULE_PATH}/uninstall.cmake"
-)
