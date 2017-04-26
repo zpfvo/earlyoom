@@ -100,6 +100,17 @@ sudo systemctl enable earlyoom
 sudo systemctl start earlyoom
 ```
 
+With CMake: you can also use CMake which might be helpful if you try to
+cross compile this project. It automatically detects systemd and falls back to
+init if not found.
+```bash
+git clone https://github.com/rfjakob/earlyoom.git
+cd earlyoom
+cmake .
+make
+sudo make install
+```
+
 Use
 ---
 Just start the executable you have just compiled:
