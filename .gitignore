@@ -1,2 +1,6 @@
 *~
 /earlyoom
+/install_manifest.txt
+/cmake_install.cmake
+/CMakeFiles
+/CMakeCache.txt
